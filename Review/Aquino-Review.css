@@ -1,0 +1,93 @@
+.body{
+    color: #0165E1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(236, 237, 238);
+    margin: 0%;
+    background-position: center;
+}
+
+.logoname{
+ align-items: center;
+ align-content: center;
+ padding-top: 10%;
+ padding-left: 23%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #0165E1;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.container-login{
+    padding-left: 65%;
+position: absolute;
+top: 17%;
+}
+
+.logbox{
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 0px 2px 5px rgb(5, 5, 5); 
+}
+
+input{
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    height: 30px;
+}
+
+button{
+    border: none;
+    background-color: #0165E1;
+    font-size: 1.4rem;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.forgot{
+    color: blue;
+    font-size: 16px;    
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.new-account{
+    border: none;
+    background-color: #1bc95e;
+    font-size: 1rem;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.line{
+    width: 90%;
+    border: 2px black;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-align: center;
+}
