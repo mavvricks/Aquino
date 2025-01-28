@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Template</title>
+    <link rel="stylesheet" href="Resume.css" />
+</head>
+
+<body>
+    <button id="change-color-btn">Change Color</button>
+    <div class="container">
+
+        <div class="info">
+            <div>
+                <h1>AQUINO, JOHN MAVERICK M.</h1>
+                <p class="address">Address: Antipolo City, Rizal </p>
+                <p class="contact">Contact No.: +639062536597 </p>
+                <p class="email">Email: 202310163@fit.edu.ph </p>
+            </div>
+            <div class="pic-section">
+                <img src="./gradpic2.JPG" alt="Profile Picture" class="pic">
+            </div>
+        </div>
+
+        
+        <div class="line"></div>
+
+        
+        <div class="objective">
+            <h2>OBJECTIVE:</h2>
+            <p>With a firm grasp of programming concepts, data analysis, and problem-solving techniques,  i am eager to embark on a professional carreer where i can leverage my skills and contribute to a company's success. i am currently seeking a position that will allow me to apply my knowledge effectively and further develop my skills and continue expanding my expertise in the field.</p>
+        </div>
+
+        <div class="academic">
+            <h2>ACADEMIC BACKGROUNDS:</h2>
+            <table>
+                <tr>
+                    <td><em>Secondary</em></td>
+                    <td>:</td>
+                    <td>
+                        <div>
+                            <p>FEU High School<br>Sampaloc, Manila<br>(S.Y 2021-2023)</p>
+                            <p class="sec">Nazareth Christian School of Antipolo<br>Antipolo, Rizal<br>(S.Y 2017-2021)</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><em>Primary</em></td>
+                    <td>:</td>
+                    <td>Nazareth Christian School of Antipolo<br>Antipolo, Rizal<br>(S.Y 2011-2017)</td>
+                </tr>
+            </table>
+        </div>
+
+        
+        <div class="skills">
+            <h2>SKILLS:</h2>
+            <ul>
+                <li>ADAPTABILITY.</li>
+                <li>WEB DESIGN</li>
+                <li>CRITICAL THINKING</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        document.getElementById("change-color-btn").addEventListener("click", function () {
+            const body = document.body;
+            body.classList.toggle("dark-mode");
+
+            this.textContent = body.classList.contains("dark-mode")
+                ? "Change Color"
+                : "Change Color";
+        });
+    </script>
+</body>
+
+</html>
